@@ -95,13 +95,13 @@ def reduce_to_all_true(source_array)
     return true
 end
 
-# def reduce_to_any_true(source_array)
-#   new_arr = []
-#   source_array.each do |i|
-#     if i == true
-#       return true
-#     else
-#       return false
-#     end
-#   end
-# end
+def reduce_to_any_true(source_array)
+  new_arr = []
+  source_array.each do |i|
+    if i == true
+      return true
+    else
+      return false
+    end
+  end
+end
